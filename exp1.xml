@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<address_book>
+  <emp id="1234">
+	<name>abc</name>
+	<contact>9876543210</contact>
+	<salary>999999</salary>
+  </emp>
+   <emp id="1235" >
+	<name>bcd</name>
+	<contact>9786543210</contact>
+	<salary>89999</salary>
+  </emp>
+   <emp id="1236">
+	<name>cde</name>
+	<contact>9678543210</contact>
+	<salary>989999</salary>
+  </emp>
+</address_book>

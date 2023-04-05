@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE library [
+<!ELEMENT library (book)>
+<!ELEMENT book      (name,author,publisher,price,info)>
+<!ELEMENT name      (#PCDATA)>
+<!ELEMENT author    (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT price     (#PCDATA)>
+<!ELEMENT tag       (#PCDATA)>
+<!ATTLIST book id CDATA #REQUIRED>
+<!ENTITY copywrite "owned by ms3.">
+
+
+]>
+
+
+<library>
+ <book id="123">
+   <name>The Guide</name>
+   <author>RK Narayan</author>
+   <publisher>Roli</publisher>
+   <price>999</price>
+   <tag>&copywrite;</tag>
+ </book>
+
+ <book id="234">
+   <name>A Suitable Boy</name>
+   <author>Vikram Seth</author>
+   <publisher>Pearson</publisher>
+   <price>1999</price>
+   <tag>&copywrite;</tag>
+ </book>
+
+ <book id="345">
+   <name>The Immortals of Meluha</name>
+   <author>Amish Tripathi</author>
+   <publisher>Dharmik</publisher>
+   <price>2999</price>
+   <tag>&copywrite;</tag>
+ </book>
+ 
+</library>

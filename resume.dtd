@@ -1,0 +1,13 @@
+<DOCTYPE resume[
+ <!ELEMENT resume(personal_details,skills,projects)>
+ <!ELEMENT personal_details(name,email,phone,city)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT email (#PCDATA)>
+ <!ELEMENT phone (#PCDATA)>
+ <!ELEMENT city  (#PCDATA)>
+ <!ELEMENT skills(s)>
+ <!ELEMENT s (#PCDATA)>
+ <!ELEMENT projects(p)>
+ <!ELEMENT p (#PCDATA)>
+ 
+]>

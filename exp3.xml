@@ -1,0 +1,29 @@
+<?xml version ="1.0" encoding="utf-8"?>
+
+<bookstore xmlns:xsi="http://localhost/XMLSchema" xsi:noNamespaceSchemaLocation="bookstore.xsd">
+<book category ="Comedy">
+ <name>5 points something</name>
+ <author>Chetan Bhagat</author>
+ <publisher>Nahi Pata</publisher>
+ <price>599</price>
+ 
+</book>
+
+<book category ="Ithishas">
+ <name>Ravan: The Enemey of Aryavart</name>
+ <author>Amish Tripathi</author>
+ <publisher>Koi Bhi</publisher>
+ <price>699</price>
+ 
+</book>
+
+<book category ="Self Help">
+ <name>The Subtle art of Not Giving a F</name>
+ <author>Dont Know</author>
+ <publisher>Still Dont Know</publisher>
+ <price>499</price>
+ 
+</book>
+
+
+</bookstore>

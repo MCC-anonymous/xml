@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resume SYSTEM "resume.dtd">
+
+<resume>
+ <personal_details>
+    <name>ABC</name>
+    <email>abc@ms3.com</email>
+    <phone>9876543210</phone>
+    <city>chandigarh</city>
+ </personal_details>
+ <skills>
+  <s>C/C++</s>
+  <s>Java</s>
+  <s>AWS</s>
+ </skills>
+ <projects>
+  <p>IncomeTax Calculator</p>
+  <p>Hospital Management System</p>
+  <p> Mangalyaan</p>
+ </projects>
+</resume>
